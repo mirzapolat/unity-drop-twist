@@ -15,7 +15,7 @@ public class LevelSelectionManager : MonoBehaviour
     [Header("Audio")]
     public AudioSource Audio;
 
-    public static string SelectetedLevel;
+    public static string SelectetedLevel = "CUBE";
 
     private void Start()
     {
